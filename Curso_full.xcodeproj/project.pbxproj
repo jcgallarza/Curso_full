@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		B1950C4C275FDBEE00C092C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1950C4B275FDBEE00C092C0 /* AppDelegate.swift */; };
 		B1950C4E275FDBEE00C092C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1950C4D275FDBEE00C092C0 /* SceneDelegate.swift */; };
-		B1950C50275FDBEE00C092C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1950C4F275FDBEE00C092C0 /* ViewController.swift */; };
+		B1950C50275FDBEE00C092C0 /* UsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1950C4F275FDBEE00C092C0 /* UsernameViewController.swift */; };
 		B1950C53275FDBEE00C092C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1950C51275FDBEE00C092C0 /* Main.storyboard */; };
 		B1950C55275FDBF000C092C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1950C54275FDBF000C092C0 /* Assets.xcassets */; };
 		B1950C58275FDBF000C092C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1950C56275FDBF000C092C0 /* LaunchScreen.storyboard */; };
+		B1D9853E27613539007EDB4F /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D9853D27613539007EDB4F /* PasswordViewController.swift */; };
+		B1D985412761386D007EDB4F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D985402761386D007EDB4F /* BaseViewController.swift */; };
+		B1D9854427613FC8007EDB4F /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D9854327613FC8007EDB4F /* Validator.swift */; };
+		B1D9854927614817007EDB4F /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D9854827614817007EDB4F /* CustomTextField.swift */; };
+		B1D9854C2761482B007EDB4F /* CustomTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1D9854B2761482B007EDB4F /* CustomTextField.xib */; };
+		B1D9854F27614DCB007EDB4F /* UIView+LoadFromNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D9854E27614DCB007EDB4F /* UIView+LoadFromNib.swift */; };
+		B1E94723276151C1001B3C77 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E94722276151C1001B3C77 /* SignupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B1950C48275FDBEE00C092C0 /* Curso_full.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Curso_full.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1950C4B275FDBEE00C092C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1950C4D275FDBEE00C092C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B1950C4F275FDBEE00C092C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B1950C4F275FDBEE00C092C0 /* UsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameViewController.swift; sourceTree = "<group>"; };
 		B1950C52275FDBEE00C092C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1950C54275FDBF000C092C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1950C57275FDBF000C092C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1950C59275FDBF000C092C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1D9853D27613539007EDB4F /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		B1D985402761386D007EDB4F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		B1D9854327613FC8007EDB4F /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		B1D9854827614817007EDB4F /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		B1D9854B2761482B007EDB4F /* CustomTextField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTextField.xib; sourceTree = "<group>"; };
+		B1D9854E27614DCB007EDB4F /* UIView+LoadFromNib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+LoadFromNib.swift"; sourceTree = "<group>"; };
+		B1E94722276151C1001B3C77 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,102 @@
 		B1950C4A275FDBEE00C092C0 /* Curso_full */ = {
 			isa = PBXGroup;
 			children = (
-				B1950C4B275FDBEE00C092C0 /* AppDelegate.swift */,
-				B1950C4D275FDBEE00C092C0 /* SceneDelegate.swift */,
-				B1950C4F275FDBEE00C092C0 /* ViewController.swift */,
-				B1950C51275FDBEE00C092C0 /* Main.storyboard */,
-				B1950C54275FDBF000C092C0 /* Assets.xcassets */,
-				B1950C56275FDBF000C092C0 /* LaunchScreen.storyboard */,
-				B1950C59275FDBF000C092C0 /* Info.plist */,
+				B1950C63275FFA2C00C092C0 /* Code */,
+				B1950C62275FFA0B00C092C0 /* SupportingFiles */,
 			);
 			path = Curso_full;
+			sourceTree = "<group>";
+		};
+		B1950C62275FFA0B00C092C0 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				B1950C56275FDBF000C092C0 /* LaunchScreen.storyboard */,
+				B1950C4B275FDBEE00C092C0 /* AppDelegate.swift */,
+				B1950C4D275FDBEE00C092C0 /* SceneDelegate.swift */,
+				B1950C54275FDBF000C092C0 /* Assets.xcassets */,
+				B1950C59275FDBF000C092C0 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		B1950C63275FFA2C00C092C0 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				B1D9854227613FB1007EDB4F /* Utils */,
+				B1D9853F2761385C007EDB4F /* Common */,
+				B1950C64275FFA4400C092C0 /* Sections */,
+				B1950C51275FDBEE00C092C0 /* Main.storyboard */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		B1950C64275FFA4400C092C0 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				B1E94721276151A9001B3C77 /* Signup */,
+				B1950C65275FFA4F00C092C0 /* Login */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		B1950C65275FFA4F00C092C0 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B1950C4F275FDBEE00C092C0 /* UsernameViewController.swift */,
+				B1D9853D27613539007EDB4F /* PasswordViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B1D9853F2761385C007EDB4F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B1D9854D27614DAB007EDB4F /* Extensions */,
+				B1D98545276147CF007EDB4F /* Components */,
+				B1D985402761386D007EDB4F /* BaseViewController.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B1D9854227613FB1007EDB4F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B1D9854327613FC8007EDB4F /* Validator.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B1D98545276147CF007EDB4F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B1D9854A2761481B007EDB4F /* CustomTextField */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B1D9854A2761481B007EDB4F /* CustomTextField */ = {
+			isa = PBXGroup;
+			children = (
+				B1D9854827614817007EDB4F /* CustomTextField.swift */,
+				B1D9854B2761482B007EDB4F /* CustomTextField.xib */,
+			);
+			path = CustomTextField;
+			sourceTree = "<group>";
+		};
+		B1D9854D27614DAB007EDB4F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B1D9854E27614DCB007EDB4F /* UIView+LoadFromNib.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B1E94721276151A9001B3C77 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				B1E94722276151C1001B3C77 /* SignupViewController.swift */,
+			);
+			path = Signup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1D9854C2761482B007EDB4F /* CustomTextField.xib in Resources */,
 				B1950C58275FDBF000C092C0 /* LaunchScreen.storyboard in Resources */,
 				B1950C55275FDBF000C092C0 /* Assets.xcassets in Resources */,
 				B1950C53275FDBEE00C092C0 /* Main.storyboard in Resources */,
@@ -138,8 +240,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1950C50275FDBEE00C092C0 /* ViewController.swift in Sources */,
+				B1E94723276151C1001B3C77 /* SignupViewController.swift in Sources */,
+				B1D9854927614817007EDB4F /* CustomTextField.swift in Sources */,
+				B1D985412761386D007EDB4F /* BaseViewController.swift in Sources */,
+				B1950C50275FDBEE00C092C0 /* UsernameViewController.swift in Sources */,
+				B1D9853E27613539007EDB4F /* PasswordViewController.swift in Sources */,
+				B1D9854F27614DCB007EDB4F /* UIView+LoadFromNib.swift in Sources */,
 				B1950C4C275FDBEE00C092C0 /* AppDelegate.swift in Sources */,
+				B1D9854427613FC8007EDB4F /* Validator.swift in Sources */,
 				B1950C4E275FDBEE00C092C0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,7 +399,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 639Y26PYUS;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Curso_full/Info.plist;
+				INFOPLIST_FILE = Curso_full/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -319,7 +427,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 639Y26PYUS;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Curso_full/Info.plist;
+				INFOPLIST_FILE = Curso_full/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
